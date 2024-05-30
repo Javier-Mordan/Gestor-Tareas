@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdminTareas.NewFolder1.Tareas">
+
+    <StackLayout Padding="10"
+                 BackgroundColor="#D7FE">
+        <Label Text="Administración de Tareas"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal"
+                     Padding="10">
+            <Entry x:Name="TaskInput"
+                   Placeholder="Nueva tarea"
+                   PlaceholderColor="Black"
+                   HorizontalOptions="FillAndExpand"
+                   TextColor="Black"/>
+            <Button Text="Agregar"
+                    Clicked="OnAddTaskClicked"
+                    BackgroundColor="#0CD461"/>
+        </StackLayout>
+        <ListView x:Name="TaskList"
+                  ItemsSource="{Binding Tasks}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="5"
+                                     BackgroundColor="#CFF589">
+                            <Label Text="{Binding Description}"
+                                   VerticalOptions="Center"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   Margin="20,5,5,5"
+                                   HorizontalOptions="CenterAndExpand"
+                                   TextColor="Black"/>
+                            <Button Text="Editar"
+                                    Clicked ="OnEditTaskClicked"
+                                    CommandParameter="{Binding .}"
+                                    VerticalOptions="Center"
+                                    BackgroundColor="#0A77C2"/>
+                            <Button Text="Eliminar"
+                                    Clicked="OnDeleteTaskClicked"
+                                    CommandParameter="{Binding .}"
+                                    VerticalOptions="Center"
+                                    BackgroundColor="#DF2208"
+                                    />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>  

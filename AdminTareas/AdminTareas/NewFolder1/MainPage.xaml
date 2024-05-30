@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdminTareas.MainPage">
+
+    <StackLayout HorizontalOptions="Center" BackgroundColor="#CFF589">
+        <Label Text="Tus tareas"
+               FontSize="35"
+               FontAttributes="Bold"
+               Margin="20,5,5,5"
+               HorizontalOptions="CenterAndExpand"
+               
+               />
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="20,10,20,30"
+               CornerRadius="50"
+               BackgroundColor="#D7FE90">
+            <StackLayout Spacing="100">
+                <Image Source="https://www.solvetic.com/uploads/tutorials/monthly_02_2020/39b6887196e8447b0428b85021869629.png"
+                       Margin="0,50,0,0"/>
+                <Label Text="Tu mejor amigo"
+                       FontSize="20"
+                        FontAttributes="Bold"
+                        Margin="20,5,5,5"
+                        HorizontalOptions="CenterAndExpand"/>
+                <Button Text="Iniciar"
+                        BackgroundColor="#85BB21"
+                        CornerRadius="30"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        x:Name="Iniciar"
+                        Clicked ="Iniciar_Clicked"
+                        />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

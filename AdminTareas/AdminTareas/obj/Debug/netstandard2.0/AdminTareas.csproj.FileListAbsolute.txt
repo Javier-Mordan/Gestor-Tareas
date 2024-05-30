@@ -1,0 +1,17 @@
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\bin\Debug\netstandard2.0\AdminTareas.deps.json
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\bin\Debug\netstandard2.0\AdminTareas.dll
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\bin\Debug\netstandard2.0\ref\AdminTareas.dll
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\bin\Debug\netstandard2.0\AdminTareas.pdb
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\AdminTareas.csproj.AssemblyReference.cache
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\AdminTareas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\AdminTareas.AssemblyInfoInputs.cache
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\AdminTareas.AssemblyInfo.cs
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\AdminTareas.csproj.CoreCompileInputs.cache
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\AdminTareas.sourcelink.json
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\AdminTareas.dll
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\refint\AdminTareas.dll
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\AdminTareas.pdb
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\NewFolder1\MainPage.xaml.g.cs
+C:\Users\morda\source\repos\AdminTareas\AdminTareas\AdminTareas\obj\Debug\netstandard2.0\NewFolder1\Tareas.xaml.g.cs
